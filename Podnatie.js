@@ -8,13 +8,13 @@ var offset : Transform;
 
 
 function Update(){
-if(Input.GetMouseBuuttonDown(1)){
+if(Input.GetMouseButtonDown(1)){
 Physics. Raycast(transform.position, transform.forward,hit,RayDistance);
 if(hit.rigidbody){
 Grab=true;
 }
 }
-if(Input.GetMouseBuuttonDown(0)){
+if(Input.GetMouseButtonDown(0)){
 if(Grab){
 Grab=false;
 Throw=true;
