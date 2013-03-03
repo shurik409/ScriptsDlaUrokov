@@ -10,7 +10,7 @@ var offset : Transform;
 function Update(){
 if(Input.GetMouseButtonDown(1)){
 Physics. Raycast(transform.position, transform.forward,hit,RayDistance);
-if(hit.rigidbody){
+if(hit.rigidbody ){
 Grab=true;
 }
 }
