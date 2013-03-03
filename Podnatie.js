@@ -28,8 +28,8 @@ hit.rigidbody.velocity = (offset.position - (hit.transform.position + hit.rigidb
 }
 if(Throw){
 if(hit.rigidbody){
-hit.rigidbody.velosity=transform.forward*throwPower;
-trow=false;
+hit.rigidbody.velocity=transform.forward*throwPower;
+Throw=false;
 }
 }
 }
